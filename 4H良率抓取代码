@@ -1,0 +1,69 @@
+Sub ceshi()
+'
+' 宏2
+'
+' 快捷键: Ctrl+q
+'
+    Sheets("粘贴").Select
+    Range("A2").Select
+        Selection.AutoFilter
+    ActiveWindow.SmallScroll ToRight:=27
+    ActiveSheet.Range("$A$1:$AQ$49032").AutoFilter Field:=35, Criteria1:="="
+    Rows("4:4").Select
+    Range("AB4").Activate
+    Range(Selection, Selection.End(xlDown)).Select
+    Selection.Delete Shift:=xlUp
+    ActiveWindow.SmallScroll Down:=-21
+    Selection.AutoFilter
+    ActiveWindow.SmallScroll Down:=-12
+    Range("AF3").Select
+    ActiveWindow.ScrollColumn = 1
+    Range("A2").Select
+    Range(Selection, Selection.End(xlToRight)).Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Selection.Copy
+    Sheets("RawData").Select
+    ' 粘贴数据起始位置
+    Range("a1").End(xlDown).Offset(1, 0).Activate
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+    ActiveWorkbook.RefreshAll
+    Sheets("Daily品质报告").Select
+    ActiveWindow.ScrollRow = 1
+    Rows("2:2").Select
+    Selection.AutoFilter
+    ActiveSheet.Range("$A$2:$N$1634").AutoFilter Field:=7, Criteria1:=Array( _
+        "#DIV/0!", "0", "0.00%"), Operator:=xlFilterValues
+    Rows("3:3").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Selection.Delete Shift:=xlUp
+    Selection.AutoFilter
+      Dim xRow As Integer
+Dim i As Integer
+xRow = Range("F65536").End(xlUp).Row
+For j = 1 To 20
+For i = 2 To xRow
+  If Cells(i, 6) = Cells(i + 1, 6) Then
+  Range(Cells(i + 1, 1), Cells(i + 1, 256)).Rows.Delete
+  End If
+Next
+Next
+    Range("A1:N1000").Select
+    Selection.Copy
+    Sheets.Add After:=ActiveSheet
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Sheets("Sheet1").Select
+    Range("A1").Select
+    Selection.PasteSpecial Paste:=xlPasteFormats, Operation:=xlNone, _
+        SkipBlanks:=False, Transpose:=False
+    Range("P9").Select
+    ActiveWindow.SmallScroll Down:=-9
+  Range("H:H").Replace ",强转0.00%*", ""
+
+  '删除最后一行
+Range("F2").End(xlDown).Activate
+If Selection = "Grade" Then
+Selection.EntireRow.Delete
+End If
+End Sub
