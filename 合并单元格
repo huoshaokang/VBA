@@ -1,0 +1,63 @@
+Sub 合并单元格()
+'
+' 合并单元格
+'
+' 快捷键: Ctrl+w
+Dim h As Integer
+Dim i As Integer
+Dim j As Integer
+i = 3
+For h = 1 To 16
+j = i + 18
+    Range(Cells(i, 4), Cells(j, 4)).Select
+    With Selection
+        .HorizontalAlignment = xlGeneral
+        .VerticalAlignment = xlCenter
+        .WrapText = False
+        .Orientation = 0
+        .AddIndent = False
+        .IndentLevel = 0
+        .ShrinkToFit = False
+        .ReadingOrder = xlContext
+        .MergeCells = True
+    End With
+    Selection.UnMerge
+    Cells(i, 4).Select
+    Selection.Copy
+    Range(Cells(i, 4), Cells(j, 4)).Select
+    ActiveSheet.Paste
+    Range(Cells(i, 5), Cells(j, 5)).Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range(Cells(i, 4), Cells(j, 4)).Select
+    Selection.PasteSpecial Paste:=xlPasteFormats, Operation:=xlNone, _
+        SkipBlanks:=False, Transpose:=False
+    Range(Cells(i, 5), Cells(j, 5)).Select
+    Application.CutCopyMode = False
+    With Selection
+        .HorizontalAlignment = xlGeneral
+        .VerticalAlignment = xlCenter
+        .WrapText = True
+        .Orientation = 0
+        .AddIndent = False
+        .IndentLevel = 0
+        .ShrinkToFit = False
+        .ReadingOrder = xlContext
+        .MergeCells = True
+    End With
+    Selection.UnMerge
+    Cells(i, 5).Select
+    Selection.Copy
+    Range(Cells(i, 5), Cells(j, 5)).Select
+    ActiveSheet.Paste
+    Range(Cells(i, 4), Cells(j, 4)).Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range(Cells(i, 5), Cells(j, 5)).Select
+    Selection.PasteSpecial Paste:=xlPasteFormats, Operation:=xlNone, _
+        SkipBlanks:=False, Transpose:=False
+    ActiveWindow.SmallScroll Down:=6
+i = i + 20
+h = h + 1
+Next
+End Sub
