@@ -1,0 +1,533 @@
+Sub 宏1()
+'
+' 宏1 宏
+ 
+' 快捷键: Ctrl+w
+'
+    Application.Run "showstatusbar"
+    Sheets("A 3000").Select
+    Sheets("A 3000").Copy Before:=Sheets(1)
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表1").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表1").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表2").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表2").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表3").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表3").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=4
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表9").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表9").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveWindow.SmallScroll ToRight:=9
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=2
+    ActiveSheet.PivotTables("数据透视表21").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表21").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表22").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表22").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveWindow.SmallScroll ToRight:=11
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表23").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表23").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveSheet.PivotTables("数据透视表24").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表24").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=9
+    ActiveSheet.PivotTables("数据透视表25").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表25").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表26").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表26").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveWindow.SmallScroll ToRight:=8
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表27").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表27").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveSheet.PivotTables("数据透视表28").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表28").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=12
+    ActiveSheet.PivotTables("数据透视表29").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表29").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表30").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表30").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveWindow.SmallScroll ToRight:=9
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表31").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表31").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveSheet.PivotTables("数据透视表32").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表32").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=10
+    ActiveSheet.PivotTables("数据透视表33").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表33").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表34").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表34").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveWindow.SmallScroll ToRight:=3
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=4
+    ActiveSheet.PivotTables("数据透视表35").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表35").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    Application.Run "showstatusbar"
+    Sheets("A 4600+4670").Select
+    Application.Run "showstatusbar"
+    Sheets("A 4600+4670").Select
+    Sheets("A 4600+4670").Copy Before:=Sheets(1)
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表39").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表39").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Range("B17").Select
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表38").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表38").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveSheet.PivotTables("数据透视表37").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表37").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=10
+    ActiveSheet.PivotTables("数据透视表44").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表44").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表45").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表45").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveWindow.SmallScroll ToRight:=10
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表46").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表46").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveSheet.PivotTables("数据透视表47").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表47").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=10
+    ActiveSheet.PivotTables("数据透视表48").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表48").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表49").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表49").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveWindow.SmallScroll ToRight:=7
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=3
+    ActiveSheet.PivotTables("数据透视表50").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表50").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveSheet.PivotTables("数据透视表51").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表51").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=10
+    ActiveSheet.PivotTables("数据透视表52").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表52").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表53").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表53").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveWindow.SmallScroll ToRight:=10
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表54").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表54").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveSheet.PivotTables("数据透视表55").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表55").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=9
+    ActiveSheet.PivotTables("数据透视表56").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表56").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表57").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表57").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveWindow.SmallScroll ToRight:=11
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表58").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表58").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveSheet.PivotTables("数据透视表59").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表59").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=10
+    ActiveSheet.PivotTables("数据透视表60").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表60").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表61").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表61").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Range("CX20").Select
+    ActiveWindow.SmallScroll ToRight:=3
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=7
+    ActiveSheet.PivotTables("数据透视表62").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表62").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表63").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表63").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveWindow.SmallScroll ToRight:=3
+    Application.Run "showstatusbar"
+    Sheets("A 4650").Select
+    Sheets("A 4650").Copy Before:=Sheets(1)
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表156").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表156").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveSheet.PivotTables("数据透视表157").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表157").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表155").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表155").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveWindow.SmallScroll ToRight:=6
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=4
+    ActiveSheet.PivotTables("数据透视表154").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表154").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表153").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表153").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveWindow.SmallScroll ToRight:=10
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表152").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表152").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveSheet.PivotTables("数据透视表151").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表151").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=10
+    ActiveSheet.PivotTables("数据透视表150").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表150").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表149").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表149").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveWindow.SmallScroll ToRight:=9
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=1
+    ActiveSheet.PivotTables("数据透视表148").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表148").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveSheet.PivotTables("数据透视表147").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表147").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=10
+    ActiveSheet.PivotTables("数据透视表146").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表146").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表145").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表145").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveWindow.SmallScroll ToRight:=7
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=3
+    ActiveSheet.PivotTables("数据透视表144").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表144").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveSheet.PivotTables("数据透视表143").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表143").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=10
+    ActiveSheet.PivotTables("数据透视表142").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表142").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表141").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表141").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveWindow.SmallScroll ToRight:=10
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表140").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表140").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveSheet.PivotTables("数据透视表139").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表139").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=10
+    ActiveSheet.PivotTables("数据透视表138").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表138").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表137").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表137").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveWindow.SmallScroll ToRight:=10
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表136").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表136").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveSheet.PivotTables("数据透视表135").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表135").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=3
+    Sheets("A 4660").Select
+    Sheets("A 4660").Copy Before:=Sheets(1)
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表159").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表159").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveSheet.PivotTables("数据透视表158").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表158").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表160").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表160").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=10
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表161").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表161").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveSheet.PivotTables("数据透视表162").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表162").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    Range("D1").Select
+    ActiveWindow.SmallScroll ToRight:=8
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=11
+    ActiveSheet.PivotTables("数据透视表163").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表163").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表164").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表164").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveWindow.SmallScroll ToRight:=9
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=1
+    ActiveSheet.PivotTables("数据透视表165").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表165").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveSheet.PivotTables("数据透视表166").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表166").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=10
+    ActiveSheet.PivotTables("数据透视表167").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表167").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表168").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表168").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveWindow.SmallScroll ToRight:=5
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=5
+    ActiveSheet.PivotTables("数据透视表169").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表169").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveSheet.PivotTables("数据透视表170").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表170").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=10
+    ActiveSheet.PivotTables("数据透视表171").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表171").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表172").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表172").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveWindow.SmallScroll ToRight:=5
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=5
+    ActiveSheet.PivotTables("数据透视表173").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表173").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveSheet.PivotTables("数据透视表174").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表174").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=10
+    ActiveSheet.PivotTables("数据透视表175").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表175").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表176").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表176").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveWindow.SmallScroll ToRight:=8
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=2
+    ActiveSheet.PivotTables("数据透视表177").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表177").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveSheet.PivotTables("数据透视表178").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表178").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=9
+    ActiveSheet.PivotTables("数据透视表179").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表179").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表180").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表180").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveWindow.SmallScroll ToRight:=2
+    Application.Run "showstatusbar"
+    Sheets("A 4655").Select
+    Application.Run "showstatusbar"
+    Sheets("A 4655").Select
+    Sheets("A 4655").Copy Before:=Sheets(1)
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表202").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表202").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveSheet.PivotTables("数据透视表203").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表203").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表201").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表201").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveWindow.SmallScroll ToRight:=6
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=4
+    ActiveSheet.PivotTables("数据透视表200").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表200").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveSheet.PivotTables("数据透视表199").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表199").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=10
+    ActiveSheet.PivotTables("数据透视表198").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表198").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表197").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表197").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveWindow.SmallScroll ToRight:=8
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=2
+    ActiveSheet.PivotTables("数据透视表196").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表196").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveSheet.PivotTables("数据透视表195").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表195").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=10
+    ActiveSheet.PivotTables("数据透视表194").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表194").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表193").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表193").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=10
+    ActiveSheet.PivotTables("数据透视表192").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表192").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表191").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表191").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveWindow.SmallScroll ToRight:=10
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表190").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表190").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveSheet.PivotTables("数据透视表189").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表189").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=10
+    ActiveSheet.PivotTables("数据透视表188").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表188").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表187").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表187").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveWindow.SmallScroll ToRight:=5
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=5
+    ActiveSheet.PivotTables("数据透视表186").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表186").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveSheet.PivotTables("数据透视表185").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表185").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=9
+    ActiveSheet.PivotTables("数据透视表184").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表184").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表183").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表183").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveWindow.SmallScroll ToRight:=10
+    Application.Run "showstatusbar"
+    ActiveSheet.PivotTables("数据透视表182").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表182").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    ActiveSheet.PivotTables("数据透视表181").PivotFields("判断").ClearAllFilters
+    ActiveSheet.PivotTables("数据透视表181").PivotFields("判断").CurrentPage = Range("变更!R1").Text
+    Application.Run "showstatusbar"
+    ActiveWindow.SmallScroll ToRight:=2
+' 改名称
+    Sheets("A 3000 (2)").Select
+    Sheets("A 3000 (2)").Name = Range("变更!S1").Text
+    Sheets("A 4600+4670 (2)").Select
+    Sheets("A 4600+4670 (2)").Name = Range("变更!S2").Text
+
+    Sheets("A 4650 (2)").Select
+    Sheets("A 4650 (2)").Name = Range("变更!S3").Text
+  
+    Sheets("A 4660 (2)").Select
+    Sheets("A 4660 (2)").Name = Range("变更!S4").Text
+  
+    Sheets("A 4655 (2)").Select
+    Sheets("A 4655 (2)").Name = Range("变更!S5").Text
+
+'需要将字母A改为B，Q$1改为Q$2
+Sheets("NEW").Select
+Range("F2:H117").Replace Cells(2, 18), Cells(2, 16)
+Range("F2:H117").Replace Cells(3, 18), Cells(3, 16)
+Range("F2:H117").Replace Cells(4, 18), Cells(4, 16)
+Range("F2:H117").Replace Cells(5, 18), Cells(5, 16)
+Range("F2:H117").Replace Cells(6, 18), Cells(6, 16)
+Range("E:E").Replace "Q$1", Cells(2, 17)
+
+'粘贴
+'1LOI 215MD
+Sheets("NEW").Select
+Range("B2:N21").Select
+Selection.Copy
+Sheets("Daily品质报告").Select
+Dim iRange As Range, iFined As Range
+Dim iStr, iAddress As String, N As Integer
+'以上是定义使用到的变量
+Set iRange = Range("G:G") '给irange变量赋值为A2:A100区域
+iStr = "3000'!$A$5" '给要查找的字符串变量赋值为A1单元格的值
+Set iFined = iRange.Find(iStr, lookat:=xlPart) '在irange区域内查找等于变量istr的单元格,并赋值给你ifined变量 , 如果要查找包含istr变量的单元格, 更改参数lookat:=xlPart
+If iFined Is Nothing Then '判断 ifined变量是空
+Exit Sub
+Else
+iFined.Offset(1, 0).Activate
+Range(Selection, Selection.End(xlToLeft)).Select
+'粘贴新数据
+Selection.Insert Shift:=xlDown
+End If
+
+'4600+4670 215MD
+Sheets("NEW").Select
+Range("B22:N45").Select
+Selection.Copy
+Sheets("Daily品质报告").Select
+Dim iRange1 As Range, iFined1 As Range
+Dim iStr1, iAddress1 As String, N1 As Integer
+'以上是定义使用到的变量
+Set iRange1 = Range("G:G") '给irange变量赋值为A2:A100区域
+iStr1 = "4600+4670'!$A$5" '给要查找的字符串变量赋值为A1单元格的值
+Set iFined1 = iRange1.Find(iStr1, lookat:=xlPart) '在irange区域内查找等于变量istr的单元格,并赋值给你ifined变量 , 如果要查找包含istr变量的单元格, 更改参数lookat:=xlPart
+If iFined1 Is Nothing Then '判断 ifined变量是空
+Exit Sub
+Else
+iFined1.Offset(1, 0).Activate
+Range(Selection, Selection.End(xlToLeft)).Select
+'粘贴新数据
+Selection.Insert Shift:=xlDown
+End If
+
+'4650 215MD
+Sheets("NEW").Select
+Range("B46:N69").Select
+Selection.Copy
+Sheets("Daily品质报告").Select
+Dim iRange2 As Range, iFined2 As Range
+Dim iStr2, iAddress2 As String, N2 As Integer
+'以上是定义使用到的变量
+Set iRange2 = Range("G:G") '给irange变量赋值为A2:A100区域
+iStr2 = "4650'!$A$5" '给要查找的字符串变量赋值为A1单元格的值
+Set iFined2 = iRange.Find(iStr2, lookat:=xlPart) '在irange区域内查找等于变量istr的单元格,并赋值给你ifined变量 , 如果要查找包含istr变量的单元格, 更改参数lookat:=xlPart
+If iFined2 Is Nothing Then '判断 ifined变量是空
+Exit Sub
+Else
+iFined2.Offset(1, 0).Activate
+Range(Selection, Selection.End(xlToLeft)).Select
+'粘贴新数据
+Selection.Insert Shift:=xlDown
+End If
+
+'4660 215MD
+Sheets("NEW").Select
+Range("B70:N93").Select
+Selection.Copy
+Sheets("Daily品质报告").Select
+Dim iRange3 As Range, iFined3 As Range
+Dim iStr3, iAddress3 As String, N3 As Integer
+'以上是定义使用到的变量
+Set iRange3 = Range("G:G") '给irange变量赋值为A2:A100区域
+iStr3 = "4660'!$A$5" '给要查找的字符串变量赋值为A1单元格的值
+Set iFined3 = iRange3.Find(iStr3, lookat:=xlPart) '在irange区域内查找等于变量istr的单元格,并赋值给你ifined变量 , 如果要查找包含istr变量的单元格, 更改参数lookat:=xlPart
+If iFined3 Is Nothing Then '判断 ifined变量是空
+Exit Sub
+Else
+iFined3.Offset(1, 0).Activate
+Range(Selection, Selection.End(xlToLeft)).Select
+'粘贴新数据
+Selection.Insert Shift:=xlDown
+End If
+
+'4665 215MD
+Sheets("NEW").Select
+Range("B94:N117").Select
+Selection.Copy
+Sheets("Daily品质报告").Select
+Dim iRange4 As Range, iFined4 As Range
+Dim iStr4, iAddress4 As String, N4 As Integer
+'以上是定义使用到的变量
+Set iRange4 = Range("G:G") '给irange变量赋值为A2:A100区域
+iStr4 = "4655'!$A$5" '给要查找的字符串变量赋值为A1单元格的值
+Set iFined4 = iRange4.Find(iStr4, lookat:=xlPart) '在irange区域内查找等于变量istr的单元格,并赋值给你ifined变量 , 如果要查找包含istr变量的单元格, 更改参数lookat:=xlPart
+If iFined4 Is Nothing Then '判断 ifined变量是空
+Exit Sub
+Else
+iFined4.Offset(1, 0).Activate
+Range(Selection, Selection.End(xlToLeft)).Select
+'粘贴新数据
+Selection.Insert Shift:=xlDown
+End If
+End Sub
