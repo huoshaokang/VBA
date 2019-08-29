@@ -1,0 +1,37 @@
+For i = 65 To 90
+
+Dim x As Integer
+For x = 1 To 3
+Sheets(Chr(i) & " 3000").PivotTables("数据透视表" & x).ChangePivotCache ActiveWorkbook.PivotCaches.Create(SourceType:=xlDatabase, SourceData:="RawData!$A:$AX", Version:=xlPivotTableVersion12)
+Next x
+Sheets(Chr(i) & " 3000").PivotTables("数据透视表9").ChangePivotCache ActiveWorkbook.PivotCaches.Create(SourceType:=xlDatabase, SourceData:="RawData!$A:$AX", Version:=xlPivotTableVersion12)
+Dim y As Integer
+For y = 21 To 35
+Sheets(Chr(i) & " 3000").PivotTables("数据透视表" & y).ChangePivotCache ActiveWorkbook.PivotCaches.Create(SourceType:=xlDatabase, SourceData:="RawData!$A:$AX", Version:=xlPivotTableVersion12)
+Next y
+
+Dim a As Integer
+For a = 37 To 39
+Sheets(Chr(i) & " 4600+4670").PivotTables("数据透视表" & a).ChangePivotCache ActiveWorkbook.PivotCaches.Create(SourceType:=xlDatabase, SourceData:="RawData!$A:$AX", Version:=xlPivotTableVersion12)
+Next a
+Dim b As Integer
+For b = 44 To 63
+Sheets(Chr(i) & " 4600+4670").PivotTables("数据透视表" & b).ChangePivotCache ActiveWorkbook.PivotCaches.Create(SourceType:=xlDatabase, SourceData:="RawData!$A:$AX", Version:=xlPivotTableVersion12)
+Next b
+
+Dim c As Integer
+For c = 135 To 157
+Sheets(Chr(i) & " 4650").PivotTables("数据透视表" & c).ChangePivotCache ActiveWorkbook.PivotCaches.Create(SourceType:=xlDatabase, SourceData:="RawData!$A:$AX", Version:=xlPivotTableVersion12)
+Next c
+
+Dim d As Integer
+For d = 158 To 180
+Sheets(Chr(i) & " 4660").PivotTables("数据透视表" & d).ChangePivotCache ActiveWorkbook.PivotCaches.Create(SourceType:=xlDatabase, SourceData:="RawData!$A:$AX", Version:=xlPivotTableVersion12)
+Next d
+
+Dim e As Integer
+For e = 181 To 203
+Sheets(Chr(i) & " 4655").PivotTables("数据透视表" & e).ChangePivotCache ActiveWorkbook.PivotCaches.Create(SourceType:=xlDatabase, SourceData:="RawData!$A:$AX", Version:=xlPivotTableVersion12)
+Next e
+
+Next i
